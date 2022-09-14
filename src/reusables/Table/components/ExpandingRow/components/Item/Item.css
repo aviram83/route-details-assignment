@@ -1,0 +1,74 @@
+.expanding-row .item {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    box-shadow: -1px 1px 3px var(--shadow-color);
+    padding: 0 40px;
+    margin-bottom: 10px;
+}
+
+.item .item-title {
+    width: 400px;
+    color: var(--important-text-color);
+    font-size: 12px;
+}
+
+.item .col {
+    display: flex;
+}
+
+.item .col:nth-child(1) {
+    width: 400px;
+}
+
+.item .col:nth-child(2) {
+    width: 100px;
+}
+
+.item .col:nth-child(3) {
+    flex: 1;
+}
+
+.item .col:nth-child(4) {
+    width: 200px;
+}
+
+.item .label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 10px;
+}
+
+.item button {
+    background: none;
+    cursor: pointer;
+}
+
+.item .item-pii {
+    color: var(--label-1-color);
+    border: 1px solid var(--label-1-color);
+}
+
+.item .item-pii.active {
+    color: white;
+    background-color: var(--label-1-color);
+}
+
+.item .item-masked {
+    color: var(--label-2-color);
+    border: 1px solid var(--label-2-color);
+}
+
+.item .item-masked.active {
+    color: white;
+    background-color: var(--label-2-color);
+}
+
+.item .item-type {
+    color: var(--label-3-color);
+    background-color: var(--label-3-inverted-color);
+}

@@ -1,0 +1,25 @@
+.header {
+    margin: 30px;
+}
+
+.header .title {
+    padding: 0 0 20px 20px;
+}
+
+.header .method {
+    font-size: 20px;
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.header .path {
+    font-size: 24px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.header .content {
+    padding: 0 0 20px 20px;
+    border-bottom: var(--border-color) 1px solid;
+}

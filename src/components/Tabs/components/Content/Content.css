@@ -1,0 +1,9 @@
+.Content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Content .table {
+    margin-top: 30px;
+}

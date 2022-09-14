@@ -1,0 +1,33 @@
+.expanding-row {
+    display: flex;
+    margin: 15px 0;
+    flex-direction: column;
+}
+
+.expanding-row .expand-button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+}
+
+.expanding-row .expanding-icon {
+    color: var(--primary-color);
+    background-color: var(--background-icon-color);
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.expanding-row .title {
+    font-size: 14px;
+    color: var(--primary-text-color);
+    font-weight: 700;
+}
+
+.expanding-row .items-list {
+    list-style: none;
+    padding: 0;
+}

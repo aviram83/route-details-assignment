@@ -1,0 +1,41 @@
+.tabs {
+    display: flex;
+    box-shadow: 0 3px 3px var(--shadow-color);
+    margin-bottom: 3px;
+    padding: 0 30px;
+}
+
+.tab {
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-color: white;
+    border: none;
+    padding: 10px 5px;
+    color: var(--secondary-text-color);
+    font-weight: 700;
+}
+
+.tab.active {
+    color: var(--primary-color);
+    font-weight: 700;
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: -2px;
+}
+
+.panels {
+    flex: 1;
+    display: flex;
+}
+
+.panel {
+    display: none;
+    background-color: var(--background-color);
+    padding: 10px;
+    flex: 1;
+    padding: 30px;
+}
+
+.panel.active {
+    display: flex;
+}

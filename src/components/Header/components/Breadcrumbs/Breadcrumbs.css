@@ -1,0 +1,16 @@
+.breadcrumbs {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.breadcrumbs .seperator {
+     margin: 0 5px;
+     font-size: 12px;
+     font-weight: 700;
+}
+
+.breadcrumbs .path {
+    font-size: 16px;
+    font-weight: 500;
+}

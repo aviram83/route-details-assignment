@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #6a1b9a;
+  --primary-color-light: #ab47bc;
+  --secondary-color: #ba68c8;
+  --border-color: #ebebeb;
+  --background-color: #f0f0f0;
+  --primary-text-color: #4a4a4a;
+  --secondary-text-color: #646466;
+  --shadow-color: #c4c2c2;
+  --background-icon-color: #edeced;
+  --important-text-color: #242e5b;
+  --label-1-color: #12296d;
+  --label-2-color: #7b1fa2;
+  --label-3-color: #419bb7;
+  --label-3-inverted-color: #cee5ec;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
